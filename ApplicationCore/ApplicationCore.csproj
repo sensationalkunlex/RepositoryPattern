@@ -140,6 +140,9 @@
     <Compile Include="RDLC\IDocumentGenerator.cs" />
     <Compile Include="RDLC\RDLCParameterModels.cs" />
     <Compile Include="Repository\IRepository.cs" />
+    <Compile Include="Services\BaseService\GenericService.cs" />
+    <Compile Include="Services\BaseService\IGenericService.cs" />
+    <Compile Include="Services\TestService.cs" />
     <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="StaticClass\LoanRange.cs" />
     <Compile Include="UnitofWork\IUnitofWork.cs" />
@@ -150,7 +153,6 @@
     <Folder Include="Entities\BulkUploads\" />
     <Folder Include="Entities\Identity\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
     <Folder Include="SqlServerTypes\x64\" />
     <Folder Include="SqlServerTypes\x86\" />
   </ItemGroup>
